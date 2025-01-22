@@ -8,7 +8,14 @@
     Denna applikation är skapad som en del av moment 1.2 i kursen Webbutveckling med .NET. 
     Syftet med applikationen är att visa användningen av Blazor WebAssembly 
     och dess funktionalitet för att skapa interaktiva webbapplikationer.
-    Det finns möjlighet till konvertering från meter till fot och även km/h till miles/h.
+    Det finns möjlighet till konvertering från meter till fot och även km/h till miles/h på sidan för konvertering.
+    <br><br>
+    JSON sidan hämtar och visar en slumpmässig Pokémon när användaren klickar på knappen "Hämta en Slumpmässig Pokémon". 
+    När knappen klickas på genereras ett slumpmässigt Pokémon-ID (mellan 1 och 898) och en GET-förfrågan skickas till Pokémon API:t för att hämta data. 
+    Namnet på Pokémon visas i versaler, och en bild laddas från en URL baserat på det slumpmässiga ID:t.
+    Sidan använder HttpClient för att göra API-anrop och hämtar JSON-data som omvandlas till en Pokemon-klass. 
+    Pokémoninformationen sparas i en variabel som uppdateras varje gång en ny Pokémon hämtas.
+
 </p>
 
 

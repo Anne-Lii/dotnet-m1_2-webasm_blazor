@@ -7,14 +7,18 @@
 <div>
     <h2>Meter till fot</h2>
     <input type="number" @bind="meter" placeholder="Ange antal meter">
+
     <button @onclick="ConvertMeterToFeet">Konvertera</button>
+
     <p>Resultat: @meterInFeet fot</p>
 </div>
 
 <div>
     <h2>Km/h till miles/hour</h2>
     <input type="number" @bind="kmPerHour" placeholder="Ange hastighet i km/h" />
+
     <button @onclick="ConvertKmToMiles">Konvertera</button>
+    
     <p>Resultat: @milesPerHour miles/hour</p>
 </div>
 

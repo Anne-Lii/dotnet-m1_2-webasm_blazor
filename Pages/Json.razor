@@ -1,16 +1,16 @@
-﻿@page "/json"
+﻿@page "/json" 
 @inject HttpClient Http
 
-<h2>JSON Pokémon Data</h2>
+<h2>Pokémon</h2>
 
 @if (pokemon == null)
 {
-    <p>Laddar Pokémon...</p>
 }
 else
 {
     <div>
         <h3 class="pokemonName">@pokemon.Name?.ToUpper()</h3>
+
         <!-- Dynamisk bild baserat på Pokemon ID -->
        <img src="@($"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{pokemonId}.png")" alt="Pokemon Image" style="max-width: 200px;" />
     </div>

@@ -1,11 +1,18 @@
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
     background-color: #e5f5f5;
 }
 
 .content {
     padding-top: 50px;
     text-align: center;
+}
+.content p {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
+    line-height: 1.4em;
 }
 input {
     max-width: 100px;
