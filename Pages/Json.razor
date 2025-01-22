@@ -12,30 +12,28 @@ else
     <div>
         <h3 class="pokemonName">@pokemon.Name?.ToUpper()</h3>
         <!-- Dynamisk bild baserat på Pokemon ID -->
-        <img src="@pokemon.Sprites?.FrontDefault" alt="Pokemon Image" style="max-width: 200px;" />
+       <img src="@($"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{pokemonId}.png")" alt="Pokemon Image" style="max-width: 200px;" />
     </div>
-    <p><strong>Image URL:</strong> @pokemon.Sprites?.FrontDefault</p>
-    <p><strong>Pokémon ID:</strong> @pokemon.Name</p>
 }
 
 <button @onclick="GetRandomPokemon">Hämta en Slumpmässig Pokémon</button>
 
 @code {
     private Pokemon? pokemon;
+    private int pokemonId;
 
     //Metod för att hämta en slumpmässig Pokémon från API
     private async Task GetRandomPokemon()
     {
-        //Hämta ett slumpmässigt Pokémon-ID mellan 1 och 898 (antal Pokemon i APIet)
-        var randomId = new Random().Next(1, 899);
-        var url = $"https://pokeapi.co/api/v2/pokemon/{randomId}";
+        //Hämtar ett slumpmässigt Pokémon-ID mellan 1 och 898 (antal Pokemon i APIet)
+        pokemonId = new Random().Next(1, 899); //Sparar det slumpmässiga ID:t
+        var url = $"https://pokeapi.co/api/v2/pokemon/{pokemonId}";
 
-        //Hämta data från PokeAPI och omvandla den till en Pokémon-objekt
+        //Hämtar data från API och omvandla det till en Pokemon-objekt
         pokemon = await Http.GetFromJsonAsync<Pokemon>(url);
-
     }
 
-    //C#-klass för att representera en Pokémon från API:t
+    //Klass för att representera en Pokemon från API:t
     public class Pokemon
     {
         public string? Name { get; set; }
