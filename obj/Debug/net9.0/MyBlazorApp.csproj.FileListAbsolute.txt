@@ -37,8 +37,6 @@ C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_fra
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Primitives.2w82csd6tr.wasm
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.krtg4e9rjb.wasm
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\mscorlib.l6md3pggqy.wasm
-C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.wacocvgups.pdb
-C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.kummhukevw.wasm
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\netstandard.lij9csiyuf.wasm
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.ch56s52ual.wasm
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Buffers.tlm3i6pt76.wasm
@@ -294,7 +292,6 @@ C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_fra
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.Json.uy989eosch.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Formats.Asn1.sw73ne3kde.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Resources.Writer.4ao90ee7f8.wasm.gz
-C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.wacocvgups.pdb.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Net.Quic.6n4jzsrw88.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\Microsoft.VisualBasic.ezua2clavb.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Overlapped.vhe0cauobg.wasm.gz
@@ -387,7 +384,6 @@ C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_fra
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Drawing.5kh3shl062.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.Contracts.g37ic7xnxa.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Intrinsics.o9fm7inv0s.wasm.gz
-C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.kummhukevw.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Xml.ReaderWriter.lis3h0bjpq.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Net.Http.Json.158hlj0e3x.wasm.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.Csp.vdqwngku20.wasm.gz
@@ -1064,9 +1060,6 @@ C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\8
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\am1u1mbqiq-tjcz0u77k5.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\o76u98ev1i-tptq2av103.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\3a44cq2bfo-lfu7j35m59.gz
-C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\w5qwprknaq-kummhukevw.gz
-C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\hy8h8twu6g-wacocvgups.gz
-C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\1x8j8qyv39-8h9zcjugwx.gz
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\staticwebassets.development.json
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1081,3 +1074,11 @@ C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\MyBlazorApp.
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\refint\MyBlazorApp.dll
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\MyBlazorApp.pdb
 C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\ref\MyBlazorApp.dll
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\MyBlazorApp.sourcelink.json
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.waqb4ggrnm.pdb
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.eonvd1jfcz.wasm
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.waqb4ggrnm.pdb.gz
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\bin\Debug\net9.0\wwwroot\_framework\MyBlazorApp.eonvd1jfcz.wasm.gz
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\w5qwprknaq-eonvd1jfcz.gz
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\hy8h8twu6g-waqb4ggrnm.gz
+C:\mittuniversitetet\.NET\moment1\m1_2\MyBlazorApp\obj\Debug\net9.0\compressed\1x8j8qyv39-rjlkjcjx1j.gz
