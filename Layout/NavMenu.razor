@@ -1,29 +1,21 @@
-﻿<div class="top-row ps-3 navbar text-white">
-    <div class="container-fluid">
-        <a class="navbar-brand text-white" href="">Anne-Liis Blazor App</a>
-       
-    </div>
-</div>
+﻿
 
-<div>
-    <nav class="nav flex-column">
-        <div class="nav-item px-2">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All"> 
-              Startsidan
-            </NavLink>
-        </div>
-        <div class="nav-item px-2">
-            <NavLink class="nav-link" href="convert">
-                 Konvertering
-            </NavLink>
-        </div>
-        <div class="nav-item px-2">
-            <NavLink class="nav-link" href="json">
-                JSON
-            </NavLink>
-        </div>
-    </nav>
-</div>
+
+<nav class="nav flex-column">
+
+    <a href="/">Anne-Liis Blazor App</a>
+
+    <div class="nav-item px-2">
+        <NavLink class="nav-link  text-white" href="" Match="NavLinkMatch.All">Startsidan</NavLink>
+    </div>
+    <div class="nav-item px-2">
+        <NavLink class="nav-link  text-white" href="convert">Konvertering</NavLink>
+    </div>
+    <div class="nav-item px-2">
+        <NavLink class="nav-link  text-white" href="json">JSON</NavLink>
+    </div>
+</nav>
+
 
 @code {
     
