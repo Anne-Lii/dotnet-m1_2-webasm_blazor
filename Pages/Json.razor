@@ -1,14 +1,49 @@
 ﻿@page "/json"
 @inject HttpClient Http
 
-<PageTitle>JSON</PageTitle>
+<h2>JSON Pokémon Data</h2>
 
-<h1>JSON</h1>
+@if (pokemon == null)
+{
+    <p>Laddar Pokémon...</p>
+}
+else
+{
+    <div>
+        <h3 class="pokemonName">@pokemon.Name?.ToUpper()</h3>
+        <!-- Dynamisk bild baserat på Pokemon ID -->
+        <img src="@pokemon.Sprites?.FrontDefault" alt="Pokemon Image" style="max-width: 200px;" />
+    </div>
+    <p><strong>Image URL:</strong> @pokemon.Sprites?.FrontDefault</p>
+    <p><strong>Pokémon ID:</strong> @pokemon.Name</p>
+}
 
-
-
-
+<button @onclick="GetRandomPokemon">Hämta en Slumpmässig Pokémon</button>
 
 @code {
-    
+    private Pokemon? pokemon;
+
+    //Metod för att hämta en slumpmässig Pokémon från API
+    private async Task GetRandomPokemon()
+    {
+        //Hämta ett slumpmässigt Pokémon-ID mellan 1 och 898 (antal Pokemon i APIet)
+        var randomId = new Random().Next(1, 899);
+        var url = $"https://pokeapi.co/api/v2/pokemon/{randomId}";
+
+        //Hämta data från PokeAPI och omvandla den till en Pokémon-objekt
+        pokemon = await Http.GetFromJsonAsync<Pokemon>(url);
+
+    }
+
+    //C#-klass för att representera en Pokémon från API:t
+    public class Pokemon
+    {
+        public string? Name { get; set; }
+        public Sprites? Sprites { get; set; }
+    }
+
+    public class Sprites
+    {
+        public string? FrontDefault { get; set; }
+    }
 }
